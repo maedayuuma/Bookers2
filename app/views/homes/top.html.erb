@@ -1,0 +1,25 @@
+<div><%= flash[:notice] %></div>
+
+<div class="container">
+  <div class="row" >
+    <div class="mx-auto co-11 co-sm-10 col-lg-8 col-xl-6">
+
+<h1>welcome to
+<i class="fas fa-book" aria-hidden="true"></i>
+<strong>Bookers!!</strong></h1>
+<P>In
+<i class="fas fa-book" aria-hidden="true"></i>
+<strong>Bookers</strong>!!</P>
+
+<p>you can share and exchange your opinions , inpressions , and emotions
+about various books!</p>
+
+<div class="row">
+<%= link_to "Log in", new_user_session_path, class: "btn btn-info btn-sm btn-block" %>
+</div>
+
+<div class="row">
+<%= link_to "Sign up", new_user_registration_path, class: "btn btn-success btn-sm btn-block" %>
+</div>
+</div>
+</div>
